@@ -1,0 +1,58 @@
+extends base.pug
+
+block scripts 
+  script(src="/static/index.js") 
+       
+
+block style 
+ style
+   include ../static/style.css
+
+block contect   
+     section#introSection 
+         div Welcome to Pihu's Dance Academy 
+         div.small Eat Sleep Dance Repeat
+
+     section#abouts 
+         h2 Abouts us 
+         
+
+     section#missionSection 
+         h2 Our Mission
+         div.card
+             h3  Dance  Perfection 
+             div.card-box 
+               div.card-img 
+                 img(src="/static/img/classical90.jpg", alt="img")
+               div.card-content 
+                  p This is best dancer academy of the universer      
+
+         div.card
+           h3 Dance the way you like 
+           div.card-box 
+               div.card-img 
+                 img(src="/static/img/classical90.jpg", alt="img")
+               div.card-content 
+                  p This is best dancer academy of the universer  
+             
+
+         div.card
+           h3 Expert Teaching
+           div.card-box 
+               div.card-img 
+                 img(src="/static/img/classical90.jpg", alt="img")
+               div.card-content 
+                  p This is best dancer academy of the universer  
+                
+ 
+     section#coursesSection 
+         h2 COURSES
+
+        
+     section#sponsorsSection 
+         h2 Our Sponsors 
+         div#sponsors
+           img(src="/static/img/s-logo1.png", alt="sp-img" , Class="spImage")
+           img(src="/static/img/s-logo2.png", alt="sp-img" , Class="spImage")
+           img(src="/static/img/s-logo3.png", alt="sp-img" , Class="spImage")
+           img(src="/static/img/s-logo4.png", alt="sp-img" , Class="spImage")

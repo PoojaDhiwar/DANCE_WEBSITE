@@ -1,0 +1,267 @@
+/* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Lobster', cursive;
+}
+
+#logo{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    margin: 16px;
+    height: 10px;
+    font-size: 30px;
+    margin-right: 60px;
+}
+
+#logo img{
+
+    height: 60px;
+}
+
+#navbar {
+    margin: 0px;
+    padding: 18px 8px;
+    background-color: rgb(224 91 109);
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+}
+
+
+#navbar ul{
+   display:  flex;
+   flex-direction: row;
+   /* justify-content: center; */
+   align-items: center;
+}
+
+#navbar li{
+ list-style: none;
+}
+
+#navbar li a{
+ text-decoration: none;
+ padding: 13px 30px;
+ color: #fff;
+}
+
+#navbar li a:hover{
+    color: #000;
+   }
+
+#introSection{
+ display: flex; 
+ flex-direction: column;  
+ font-size: 50px;
+ color: #fff;
+ font-family: 'Lobster', cursive;
+ justify-content: center;
+ align-items: flex-start;
+ height: 500px;
+ background: center/cover no-repeat url("../static/img/bg5.jpg");
+}
+
+#introSection div.small{
+    padding: 2px;
+    font-size: 30px;
+}
+
+#introSection div:hover{
+    color: rgb(224 91 109) ;
+}
+
+
+/* missionSection */
+
+#missionSection {
+    height: 100%;
+    width: 67%;
+    display: block;
+    background-color: white;
+    margin: auto;
+    }
+    
+    
+#missionSection h2{
+        font-family: 'Lobster', cursive;
+        text-align: center;
+        padding-top: 14px;
+        font-size: 40px;
+    }
+#missionSection h2:hover{
+        color: rgb(224 91 109) ;
+    }   
+
+#missionSection h3{
+        font-family: 'Lobster', cursive;
+        text-align: center;
+        padding-top: 8px;
+        font-size: 20px;
+    }
+
+
+ 
+    /* card section */
+    
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 12px;
+    width: 30%;
+    margin: 23px 10px;
+    height: 220px;
+}
+.card h3{
+    text-align: center;
+    margin: 8px;
+    margin-top: 80x;
+    font-family: 'Lobster', cursive;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 120px;
+    padding: 0 1px;
+    margin: 2px 2px;
+}
+
+.card-img img{
+    height: inherit;
+}
+
+.card-content{
+    padding: 0 24px;
+}
+.card-content p {
+    font-size: 19px;
+    font-family: 'Lobster', cursive;
+}
+
+/* coursesSection */
+
+#coursesSection {
+    margin: auto;
+    background-color: rgb(228 61 84);
+    height: 400px;
+    display: block;
+    background: center/cover no-repeat url("../static/img/bg3.jpg");
+    }
+    
+    #coursesSection h2{
+        font-family: 'Lobster', cursive;
+        text-align: center;
+        padding-top: 14px;
+        font-size: 40px;
+        color: black;
+        }
+
+        #coursesSection h2:hover{
+            color: rgb(224 91 109) ; 
+        }
+
+
+/* sponsorsSection */
+   #sponsorsSection{
+       height: 300px;
+       background-color: antiquewhite;
+       justify-content: center;
+   } 
+
+
+ #sponsorsSection h2{
+     font-size: 36px;
+     font-family: 'Lobster', cursive;
+     text-align: center;
+     padding-top: 12px;
+ }
+
+ #sponsorsSection h2:hover{
+    color: rgb(224 91 109) ;
+}   
+ 
+ #sponsors{
+     height: 200px;
+     max-width: 1000px;
+     margin: auto;
+ }
+.spImage{
+     height: 80%;
+     margin: 20px;
+}
+
+/* Contact */
+
+ .container{
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10%;
+} 
+.container h1{
+ padding: 14px;
+text-align: center;
+color: #fff;
+font-size: 36px;
+}
+.container h1:hover{
+    color: black ;
+}
+
+.myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.myInput{
+    display: block;
+    width: 40%;
+    padding: 6px;
+    margin: 8px;
+    font-size: 16px;
+    border: 2px solid rgb(224 91 109)  ;
+    border-radius: 12px;
+    outline: none;
+    
+}
+
+.btn{
+    padding: 9px 40px;
+    font-size: 20px;
+    color: #fff;
+    border: 2px solid  rgb(183 96 96);
+    border-radius: 12px;
+    background: rgb(211 41 64);
+    cursor: pointer;
+    margin: 15px;
+}
+ 
+
+/* footer */
+
+#footer {
+height: 100px;
+background-color: black;
+height: 80px;
+justify-content: center;
+align-items: center;
+
+}
+
+#footer h3{
+ padding-top: 12px;
+ text-align: center;
+ font-size: 14px;
+ font-family: 'Lobster', cursive;
+ color: white;
+}

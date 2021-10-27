@@ -1,0 +1,36 @@
+doctype html
+html
+  head
+    title Pihu Dance Academy
+    style
+      include ../static/style.css
+      include ../static/imgstyle.css
+  body
+     nav#navbar
+           ul
+              #logo 
+                img(src="static/img/logo2.png ", alt="log_img")
+                |PIHU DA
+              li #[a(href="/")  Home]
+              li #[a(href="/")  Abouts]
+              li #[a(href="/")  Services] 
+              li #[a(href="/")  Class Info]
+              li #[a(href="/")  Contact Us]
+     
+     section#contact
+         div.container
+           h1 Contact Us 
+           form(action="/contact", method="post", class="myform" ) 
+            input(type="text" , Class="myInput", name="name", placeholder="Enter your name")
+            input(type="phone" , Class="myInput", name="phone", placeholder="Enter your phone number")
+            input(type="email" , Class="myInput", name="email", placeholder="Enter your email id")
+            input(type="text" , Class="myInput", name="address", placeholder="Enter your address")
+            input(type="text" , Class="myInput", name="desc", placeholder="Enter your concern")
+            button(class="btn")
+               |Submit
+      
+     footer#footer 
+         h3 Copyright @ 2020-2021 PihuDanceAcademy.com | All right reserved
+
+     script
+      include ../static/index.js        
