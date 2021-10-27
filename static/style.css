@@ -22,6 +22,21 @@
     height: 60px;
 }
 
+.section-heading {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+.section-heading h2{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    padding-top: 14px;
+    font-size: 40px;
+}
+.section-heading h2:hover{
+    color: rgb(224 91 109) ;
+}   
 #navbar {
     margin: 0px;
     padding: 18px 8px;
@@ -72,8 +87,110 @@
 #introSection div:hover{
     color: rgb(224 91 109) ;
 }
+ 
+/*
+---------------------------------------------
+Venues & Tickets
+---------------------------------------------
+*/
+.venue-tickets {
+    margin: 0px 15px;
+    
+  }
+  
+  .venue-tickets .venue-item {
+    margin-bottom: 23px;
+
+  }
+  
+  .venue-item .thumb img {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .venue-item .down-content {
+    background-color: #656c74;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    width: 100%;
+  }
+  
+  .venue-item .down-content .left-content {
+    width: 31%;
+    float:left;
+    background-color: rgba(124,131,139,0.3);
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    z-index: 111;
+  }
+  
+  .venue-item .down-content .left-content .main-white-button {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 50%;
+    margin-top: -22.5px;
+  }
 
 
+  .venue-item .down-content .right-content {
+    width: 64%;
+    margin-left: 5%;
+    float: right;
+  }
+  
+  .venue-item .down-content .right-content h4 {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 30px;
+  }
+  
+  .venue-item .down-content .right-content p {
+    color: #fff;
+    margin-top: 20px;
+    font-weight: 300;
+    padding-right: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .venue-item .down-content .right-content ul li { 
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 20px;;
+  }
+  
+  .venue-item .down-content .right-content ul li i {
+    margin-right: 5px;
+  }
+  
+  .venue-item .down-content .right-content .price {
+    background-color: rgba(124,131,139,0.3);
+    display: inline-block;
+    padding: 20px;
+    margin-top: 25px;;
+    margin-bottom: 30px;
+  }
+  
+  .venue-item .down-content .right-content .price span {
+    color: #fff;
+    font-size: 14px;
+    line-height: 25px;
+  }
+  
+  .venue-item .down-content .right-content .price span em {
+    font-weight: 700;
+    font-size: 20px;
+    font-style: normal;
+  }
+  
+  
 /* missionSection */
 
 #missionSection {
@@ -83,17 +200,6 @@
     background-color: white;
     margin: auto;
     }
-    
-    
-#missionSection h2{
-        font-family: 'Lobster', cursive;
-        text-align: center;
-        padding-top: 14px;
-        font-size: 40px;
-    }
-#missionSection h2:hover{
-        color: rgb(224 91 109) ;
-    }   
 
 #missionSection h3{
         font-family: 'Lobster', cursive;
@@ -152,19 +258,6 @@
     display: block;
     background: center/cover no-repeat url("../static/img/bg3.jpg");
     }
-    
-    #coursesSection h2{
-        font-family: 'Lobster', cursive;
-        text-align: center;
-        padding-top: 14px;
-        font-size: 40px;
-        color: black;
-        }
-
-        #coursesSection h2:hover{
-            color: rgb(224 91 109) ; 
-        }
-
 
 /* sponsorsSection */
    #sponsorsSection{
@@ -172,18 +265,6 @@
        background-color: antiquewhite;
        justify-content: center;
    } 
-
-
- #sponsorsSection h2{
-     font-size: 36px;
-     font-family: 'Lobster', cursive;
-     text-align: center;
-     padding-top: 12px;
- }
-
- #sponsorsSection h2:hover{
-    color: rgb(224 91 109) ;
-}   
  
  #sponsors{
      height: 200px;

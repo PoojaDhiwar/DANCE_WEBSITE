@@ -5,6 +5,11 @@ html
     title Pihu Dance Academy
     style
       include ../static/style.css
+      include ../static/bootstrap.min.css
+      include ../static/font-awesome.css
+      include ../static/owl-carousel.css
+
+      
   body
      nav#navbar
            ul
@@ -17,15 +22,85 @@ html
               li #[a(href="/")  Class Info]
               li #[a(href="/")  Contact Us]
 
-     section#introSection 
+     section#introSection
+      div.section-heading 
          div Welcome to Pihu's Dance Academy 
          div.small Eat Sleep Dance Repeat
 
-     section#abouts 
-        h2 Abouts us 
+
+ 
+     div.venue-tickets.container-fluid.row
+           div.col-lg-12
+                 div.section-heading
+                     h2 Our Venues And Tickets
+
+           div.col-lg-4.venue-item
+               .thumb  
+                  img(src="/static/img/venue-01.jpg", alt="img")
+               div.down-content
+                   div.left-content.main-white-button
+                       a(href="ticket-details.html") Purchase Tickets
+                   div.right-content
+                        h4 Radio City Musical Hall
+                        p Lorem ipsum dolor sit amet, consectetur vinzi iscing elit, sed doers kontra.......
+                        ul 
+                           .fa.fa-sitemap
+                             li 
+                               i 250/
+                           .fa.fa-user  
+                             li 
+                               i 500/ 
+                        div.price 
+                           span 1 ticket 
+                             em 430/ 
+       
+            
+           div.col-lg-4.venue-item
+               .thumb  
+                  img(src="/static/img/venue-01.jpg", alt="img")
+               div.down-content
+                   div.left-content.main-white-button
+                       a(href="ticket-details.html") Purchase Tickets
+                   div.right-content
+                        h4 Radio City Musical Hall
+                        p Lorem ipsum dolor sit amet, consectetur vinzi iscing elit, sed doers kontra.......
+                        ul 
+                           .fa.fa-sitemap
+                             li 
+                               i 250/
+                           .fa.fa-user  
+                             li 
+                               i 500/ 
+                        div.price 
+                           span 1 ticket 
+                             em 430/ 
+ 
+           div.col-lg-4.venue-item
+               .thumb  
+                  img(src="/static/img/venue-01.jpg", alt="img")
+               div.down-content
+                   div.left-content.main-white-button
+                       a(href="ticket-details.html") Purchase Tickets
+                   div.right-content
+                        h4 Radio City Musical Hall
+                        p Lorem ipsum dolor sit amet, consectetur vinzi iscing elit, sed doers kontra.......
+                        ul 
+                           .fa.fa-sitemap
+                             li 
+                               i 250/
+                           .fa.fa-user  
+                             li 
+                               i 500/ 
+                        div.price 
+                           span 1 ticket 
+                             em 430/ 
+
           
+            
+             
      section#missionSection 
-         h2 Our Mission
+         div.section-heading
+            h2 Our Mission
          div.card
              h3  Dance  Perfection 
              div.card-box 
@@ -53,11 +128,13 @@ html
                 
  
      section#coursesSection 
-         h2 COURSES
+         div.section-heading
+            h2 COURSES
 
         
-     section#sponsorsSection 
-         h2 Our Sponsors 
+     section#sponsorsSection
+         div.section-heading 
+            h2 Our Sponsors 
          div#sponsors
            img(src="/static/img/s-logo1.png", alt="sp-img" , Class="spImage")
            img(src="/static/img/s-logo2.png", alt="sp-img" , Class="spImage")
