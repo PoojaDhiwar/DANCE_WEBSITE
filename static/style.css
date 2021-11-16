@@ -115,10 +115,23 @@ Venues & Tickets
     z-index: 1;
     width: 100%;
   }
+
+  .main-white-button a {
+    margin: 20px;
+    display: inline-block;
+    font-size: 14px;
+    padding: 12px 18px;
+    background-color: #fff;
+    color: #2a2a2a;
+    text-align: center;
+    font-weight: 500;
+    text-transform: capitalize;
+    transition: all .3s;
+}
   
   .venue-item .down-content .left-content {
     width: 31%;
-    float:left;
+    float: left;
     background-color: rgba(124,131,139,0.3);
     height: 100%;
     display: inline-block;
